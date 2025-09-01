@@ -4,7 +4,7 @@ This repo contains details about real time streaming implementation using Conflu
 
 **Data Flow Details: **
 
-Using Mock Python script to generate Orders and Payments data and ingesting in the Confluent Kafka Topic --> Joining the both datasets using Kafka Streams --> Using the Joined Stream as Source Kafka Topic --> Set up MongoDB sink connector --> Ingesting the Payments_Orders_Joined Data to MongoDB Collections --> Building Real Time Dashboard using MangoDB Atlas
+Using Mock Python script to generate Orders and Payments data and ingesting in the Confluent Kafka Topic --> Joining the both datasets using Kafka Streams --> Using the Joined Stream now as Source Kafka Topic --> Set up MongoDB sink connector --> Ingesting the Payments_Orders_Joined Data to MongoDB Collections --> Building Real Time Dashboard using MangoDB Atlas
 
 Total Data from Source: 200 records
 Total Data ingested in the MongoDB Collection: 200
@@ -28,3 +28,14 @@ Total Data ingested in the MongoDB Collection: 200
 14. Validate the total record counts in the MongoDB collection table orders_payments_joined. Counts should match from the ksqldb payments_orders_joined stream with the mcdonalds.orders_payments_joined
 15. Validate the total counts in the Dashboard built on the top the table, record counts should match across all layers i.e. 200 records
     
+
+Kafka joined stream topic details: https://github.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project/blob/main/Confluent_Producer_MacD_Orders_Payments_Joined_Stream_Topic_Details.PNG
+
+
+Kafka-to-MongoDB Sink Data validations: https://github.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project/blob/main/Confluent_Kafka_to_MongoDB_Sink_Data_Flow_Details.PNG
+
+MongoDB final record counts validations: https://github.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project/blob/main/MongoDB_Final_Dataset_Counts.PNG
+
+
+Project Dashboard using MongoDB: https://github.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project/blob/main/McDonalds_Dashboard.pdf
+
