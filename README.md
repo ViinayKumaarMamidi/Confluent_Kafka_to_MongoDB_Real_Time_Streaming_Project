@@ -29,6 +29,8 @@ Total Data ingested in the MongoDB Collection: 200
 15. Validate the total counts in the Dashboard built on the top the table, record counts should match across all layers i.e. 200 records
     
 
+Kafka Streams Data Flow Details: https://github.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project/blob/main/Confluent_Streams_Flow_Diagram.PNG
+
 Kafka joined stream topic details: https://github.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project/blob/main/Confluent_Producer_MacD_Orders_Payments_Joined_Stream_Topic_Details.PNG
 
 
