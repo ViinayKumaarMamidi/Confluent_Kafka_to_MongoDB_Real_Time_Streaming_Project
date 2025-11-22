@@ -9,6 +9,11 @@ Using Mock Python script to generate Orders and Payments data and ingesting in t
 Total Data from Source: 200 records
 Total Data ingested in the MongoDB Collection: 200
 
+**End to end project documentation:** https://deepwiki.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ViinayKumaarMamidi/Confluent_Kafka_to_MongoDB_Real_Time_Streaming_Project)
+
+
 
 **Project Details:** 
 
