@@ -2,6 +2,11 @@
 
 This repo contains details about real time streaming implementation using Confluent Cloud Kafka as Source and MongoDB as Sink. Thanks
 
+**Kafka Events URL:**
+
+https://current.confluent.io/post-conference-videos-26/from-batch-to-real-time-operating-cassandra-cdc-with-debezium-at-datadog-scale-ldn26
+
+
 **Data Flow Details:**
 
 Using Mock Python script to generate Orders and Payments data and ingesting in the Confluent Kafka Topic --> Joining the both datasets using Kafka Streams --> Using the Joined Stream now as Source Kafka Topic --> Set up MongoDB sink connector --> Ingesting the Payments_Orders_Joined Data to MongoDB Collections --> Building Real Time Dashboard using MangoDB Atlas
